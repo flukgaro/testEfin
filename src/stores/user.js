@@ -5,7 +5,9 @@ export const useUserStore = defineStore('user',{
 state: () =>({
   users:[{
     firstname: 'fluke',
-    lastname: 'sky'
+    lastname: 'sky',
+    age: '25',
+    gender: 'male'
   }]
 }),
 actions: {
